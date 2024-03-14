@@ -1,10 +1,10 @@
 {
-  "name": "hermit-md",
+  "name": "junior-md",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
+  "repository": "https://github.com/cheekydavy/junior-md",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -25,7 +25,7 @@
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "JUNIOR;MBUVI;254746440595;https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ"
+      "value": "JUNIOR;MBUVI"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "JUNOR;MBUVI;https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg"
     },
     "READ_MSG": {
       "description": "Read all messages",
@@ -68,7 +68,7 @@
     "AUTO_STATUS_VIEW": {
       "description": "automatic read status",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "REJECT_CALL": {
       "description": "automatic reject call",
@@ -88,7 +88,7 @@
     "ERROR_MESSAGE": {
       "description": "get error alert",
       "required": false,
-      "value": "true"
+      "value": "false"
     }
   },
   "addons": [
